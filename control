@@ -1,0 +1,9 @@
+Package: com.la.kyctest
+Name: KYC Liveness Test
+Version: 1.0.0
+Architecture: iphoneos-arm64e
+Description: eKYC Flash Liveness simulation test app for VCAM
+Maintainer: Tele
+Author: @ting0134
+Section: Utilities
+Depends: firmware (>= 15.0)
