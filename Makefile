@@ -8,5 +8,6 @@ APPLICATION_NAME = KYCTest
 KYCTest_FILES = main.m KYCAppDelegate.m KYCViewController.m
 KYCTest_FRAMEWORKS = UIKit Foundation AVFoundation CoreMedia CoreVideo QuartzCore
 KYCTest_CFLAGS = -fobjc-arc -O2
+KYCTest_RESOURCE_FILES = $(wildcard Resources/*.png)
 
 include $(THEOS_MAKE_PATH)/application.mk
